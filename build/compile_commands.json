@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\testprogram.dir\\hello_world.cpp.obj -c C:\\Users\\Lukas\\Documents\\because_I_hate_myself\\magic_moneyz\\hello_world.cpp",
+  "file": "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/hello_world.cpp",
+  "output": "CMakeFiles/testprogram.dir/hello_world.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/testprogram.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/edit_cache.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/rebuild_cache.dir
