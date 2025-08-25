@@ -128,29 +128,79 @@ testprogram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/build
 .PHONY : testprogram/fast
 
-hello_world.obj: hello_world.cpp.obj
-.PHONY : hello_world.obj
+#=============================================================================
+# Target rules for targets named testprogram_autogen_timestamp_deps
+
+# Build rule for target.
+testprogram_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprogram_autogen_timestamp_deps
+.PHONY : testprogram_autogen_timestamp_deps
+
+# fast build rule for target.
+testprogram_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/build
+.PHONY : testprogram_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named testprogram_autogen
+
+# Build rule for target.
+testprogram_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprogram_autogen
+.PHONY : testprogram_autogen
+
+# fast build rule for target.
+testprogram_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/build
+.PHONY : testprogram_autogen/fast
+
+exampels/graphical_UI.obj: exampels/graphical_UI.cpp.obj
+.PHONY : exampels/graphical_UI.obj
 
 # target to build an object file
-hello_world.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/hello_world.cpp.obj
-.PHONY : hello_world.cpp.obj
+exampels/graphical_UI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj
+.PHONY : exampels/graphical_UI.cpp.obj
 
-hello_world.i: hello_world.cpp.i
-.PHONY : hello_world.i
+exampels/graphical_UI.i: exampels/graphical_UI.cpp.i
+.PHONY : exampels/graphical_UI.i
 
 # target to preprocess a source file
-hello_world.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/hello_world.cpp.i
-.PHONY : hello_world.cpp.i
+exampels/graphical_UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.i
+.PHONY : exampels/graphical_UI.cpp.i
 
-hello_world.s: hello_world.cpp.s
-.PHONY : hello_world.s
+exampels/graphical_UI.s: exampels/graphical_UI.cpp.s
+.PHONY : exampels/graphical_UI.s
 
 # target to generate assembly for a file
-hello_world.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/hello_world.cpp.s
-.PHONY : hello_world.cpp.s
+exampels/graphical_UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.s
+.PHONY : exampels/graphical_UI.cpp.s
+
+testprogram_autogen/mocs_compilation.obj: testprogram_autogen/mocs_compilation.cpp.obj
+.PHONY : testprogram_autogen/mocs_compilation.obj
+
+# target to build an object file
+testprogram_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj
+.PHONY : testprogram_autogen/mocs_compilation.cpp.obj
+
+testprogram_autogen/mocs_compilation.i: testprogram_autogen/mocs_compilation.cpp.i
+.PHONY : testprogram_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+testprogram_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.i
+.PHONY : testprogram_autogen/mocs_compilation.cpp.i
+
+testprogram_autogen/mocs_compilation.s: testprogram_autogen/mocs_compilation.cpp.s
+.PHONY : testprogram_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+testprogram_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.s
+.PHONY : testprogram_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -160,10 +210,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... testprogram_autogen
+	@echo ... testprogram_autogen_timestamp_deps
 	@echo ... testprogram
-	@echo ... hello_world.obj
-	@echo ... hello_world.i
-	@echo ... hello_world.s
+	@echo ... exampels/graphical_UI.obj
+	@echo ... exampels/graphical_UI.i
+	@echo ... exampels/graphical_UI.s
+	@echo ... testprogram_autogen/mocs_compilation.obj
+	@echo ... testprogram_autogen/mocs_compilation.i
+	@echo ... testprogram_autogen/mocs_compilation.s
 .PHONY : help
 
 

@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/hello_world.cpp" "CMakeFiles/testprogram.dir/hello_world.cpp.obj" "gcc" "CMakeFiles/testprogram.dir/hello_world.cpp.obj.d"
+  "" "testprogram_autogen/timestamp" "custom" "testprogram_autogen/deps"
+  "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/exampels/graphical_UI.cpp" "CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj" "gcc" "CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj.d"
+  "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/testprogram_autogen/mocs_compilation.cpp" "CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

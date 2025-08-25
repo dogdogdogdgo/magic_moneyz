@@ -68,36 +68,64 @@ include CMakeFiles/testprogram.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testprogram.dir/flags.make
 
+testprogram_autogen/timestamp: C:/msys64/ucrt64/share/qt6/bin/moc.exe
+testprogram_autogen/timestamp: C:/msys64/ucrt64/share/qt6/bin/uic.exe
+testprogram_autogen/timestamp: CMakeFiles/testprogram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target testprogram"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/testprogram_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/testprogram_autogen/timestamp
+
 CMakeFiles/testprogram.dir/codegen:
 .PHONY : CMakeFiles/testprogram.dir/codegen
 
-CMakeFiles/testprogram.dir/hello_world.cpp.obj: CMakeFiles/testprogram.dir/flags.make
-CMakeFiles/testprogram.dir/hello_world.cpp.obj: C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/hello_world.cpp
-CMakeFiles/testprogram.dir/hello_world.cpp.obj: CMakeFiles/testprogram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testprogram.dir/hello_world.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testprogram.dir/hello_world.cpp.obj -MF CMakeFiles\testprogram.dir\hello_world.cpp.obj.d -o CMakeFiles\testprogram.dir\hello_world.cpp.obj -c C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\hello_world.cpp
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj: CMakeFiles/testprogram.dir/flags.make
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj: CMakeFiles/testprogram.dir/includes_CXX.rsp
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj: testprogram_autogen/mocs_compilation.cpp
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj: CMakeFiles/testprogram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\testprogram.dir\testprogram_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\testprogram.dir\testprogram_autogen\mocs_compilation.cpp.obj -c C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\testprogram_autogen\mocs_compilation.cpp
 
-CMakeFiles/testprogram.dir/hello_world.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testprogram.dir/hello_world.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\hello_world.cpp > CMakeFiles\testprogram.dir\hello_world.cpp.i
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\testprogram_autogen\mocs_compilation.cpp > CMakeFiles\testprogram.dir\testprogram_autogen\mocs_compilation.cpp.i
 
-CMakeFiles/testprogram.dir/hello_world.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testprogram.dir/hello_world.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\hello_world.cpp -o CMakeFiles\testprogram.dir\hello_world.cpp.s
+CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\testprogram_autogen\mocs_compilation.cpp -o CMakeFiles\testprogram.dir\testprogram_autogen\mocs_compilation.cpp.s
+
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj: CMakeFiles/testprogram.dir/flags.make
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj: CMakeFiles/testprogram.dir/includes_CXX.rsp
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj: C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/exampels/graphical_UI.cpp
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj: CMakeFiles/testprogram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj -MF CMakeFiles\testprogram.dir\exampels\graphical_UI.cpp.obj.d -o CMakeFiles\testprogram.dir\exampels\graphical_UI.cpp.obj -c C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\exampels\graphical_UI.cpp
+
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\exampels\graphical_UI.cpp > CMakeFiles\testprogram.dir\exampels\graphical_UI.cpp.i
+
+CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\exampels\graphical_UI.cpp -o CMakeFiles\testprogram.dir\exampels\graphical_UI.cpp.s
 
 # Object files for target testprogram
 testprogram_OBJECTS = \
-"CMakeFiles/testprogram.dir/hello_world.cpp.obj"
+"CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj"
 
 # External object files for target testprogram
 testprogram_EXTERNAL_OBJECTS =
 
-testprogram.exe: CMakeFiles/testprogram.dir/hello_world.cpp.obj
+testprogram.exe: CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj
+testprogram.exe: CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj
 testprogram.exe: CMakeFiles/testprogram.dir/build.make
+testprogram.exe: C:/msys64/ucrt64/lib/libQt6Widgets.dll.a
+testprogram.exe: C:/msys64/ucrt64/lib/libQt6Gui.dll.a
+testprogram.exe: C:/msys64/ucrt64/lib/libQt6Core.dll.a
 testprogram.exe: CMakeFiles/testprogram.dir/linkLibs.rsp
 testprogram.exe: CMakeFiles/testprogram.dir/objects1.rsp
 testprogram.exe: CMakeFiles/testprogram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testprogram.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable testprogram.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\testprogram.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,7 +136,7 @@ CMakeFiles/testprogram.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\testprogram.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/testprogram.dir/clean
 
-CMakeFiles/testprogram.dir/depend:
+CMakeFiles/testprogram.dir/depend: testprogram_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles\testprogram.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/testprogram.dir/depend
 

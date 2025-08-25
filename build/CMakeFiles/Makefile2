@@ -75,21 +75,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/testprogram.dir/clean
+clean: CMakeFiles/testprogram_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/testprogram_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/testprogram.dir
 
 # All Build rule for target.
-CMakeFiles/testprogram.dir/all:
+CMakeFiles/testprogram.dir/all: CMakeFiles/testprogram_autogen.dir/all
+CMakeFiles/testprogram.dir/all: CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2 "Built target testprogram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4 "Built target testprogram"
 .PHONY : CMakeFiles/testprogram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testprogram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testprogram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
 .PHONY : CMakeFiles/testprogram.dir/rule
@@ -99,15 +102,79 @@ testprogram: CMakeFiles/testprogram.dir/rule
 .PHONY : testprogram
 
 # codegen rule for target.
-CMakeFiles/testprogram.dir/codegen:
+CMakeFiles/testprogram.dir/codegen: CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2 "Finished codegen for target testprogram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target testprogram"
 .PHONY : CMakeFiles/testprogram.dir/codegen
 
 # clean rule for target.
 CMakeFiles/testprogram.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/clean
 .PHONY : CMakeFiles/testprogram.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testprogram_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/testprogram_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Built target testprogram_autogen_timestamp_deps"
+.PHONY : CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testprogram_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
+.PHONY : CMakeFiles/testprogram_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+testprogram_autogen_timestamp_deps: CMakeFiles/testprogram_autogen_timestamp_deps.dir/rule
+.PHONY : testprogram_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/testprogram_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Finished codegen for target testprogram_autogen_timestamp_deps"
+.PHONY : CMakeFiles/testprogram_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/testprogram_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/testprogram_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testprogram_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/testprogram_autogen.dir/all: CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=5 "Built target testprogram_autogen"
+.PHONY : CMakeFiles/testprogram_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testprogram_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testprogram_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
+.PHONY : CMakeFiles/testprogram_autogen.dir/rule
+
+# Convenience name for target.
+testprogram_autogen: CMakeFiles/testprogram_autogen.dir/rule
+.PHONY : testprogram_autogen
+
+# codegen rule for target.
+CMakeFiles/testprogram_autogen.dir/codegen: CMakeFiles/testprogram_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=5 "Finished codegen for target testprogram_autogen"
+.PHONY : CMakeFiles/testprogram_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/testprogram_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/clean
+.PHONY : CMakeFiles/testprogram_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
