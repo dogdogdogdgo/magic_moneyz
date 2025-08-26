@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0-rc3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.1.0-rc3/CMakeSystem.cmake"
+  "C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/exampels/CMakeLists.txt"
   "C:/msys64/ucrt64/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "C:/msys64/ucrt64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
   "C:/msys64/ucrt64/lib/cmake/Qt6/Qt6Config.cmake"
@@ -228,15 +229,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/testprogram_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/magic_moneyz_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exampels/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/testprogram.dir/DependInfo.cmake"
-  "CMakeFiles/testprogram_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/testprogram_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/magic_moneyz.dir/DependInfo.cmake"
+  "CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/magic_moneyz_autogen.dir/DependInfo.cmake"
   )

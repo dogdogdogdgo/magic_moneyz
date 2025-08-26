@@ -1,5 +1,7 @@
-C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/testprogram.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/magic_moneyz.dir
 C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/edit_cache.dir
 C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/rebuild_cache.dir
-C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/testprogram_autogen_timestamp_deps.dir
-C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/testprogram_autogen.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/magic_moneyz_autogen.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/exampels/CMakeFiles/edit_cache.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/exampels/CMakeFiles/rebuild_cache.dir

@@ -116,91 +116,91 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testprogram
+# Target rules for targets named magic_moneyz
 
 # Build rule for target.
-testprogram: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprogram
-.PHONY : testprogram
+magic_moneyz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz
+.PHONY : magic_moneyz
 
 # fast build rule for target.
-testprogram/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/build
-.PHONY : testprogram/fast
+magic_moneyz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/build
+.PHONY : magic_moneyz/fast
 
 #=============================================================================
-# Target rules for targets named testprogram_autogen_timestamp_deps
+# Target rules for targets named magic_moneyz_autogen_timestamp_deps
 
 # Build rule for target.
-testprogram_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprogram_autogen_timestamp_deps
-.PHONY : testprogram_autogen_timestamp_deps
+magic_moneyz_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz_autogen_timestamp_deps
+.PHONY : magic_moneyz_autogen_timestamp_deps
 
 # fast build rule for target.
-testprogram_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen_timestamp_deps.dir\build.make CMakeFiles/testprogram_autogen_timestamp_deps.dir/build
-.PHONY : testprogram_autogen_timestamp_deps/fast
+magic_moneyz_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/build
+.PHONY : magic_moneyz_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named testprogram_autogen
+# Target rules for targets named magic_moneyz_autogen
 
 # Build rule for target.
-testprogram_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprogram_autogen
-.PHONY : testprogram_autogen
+magic_moneyz_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz_autogen
+.PHONY : magic_moneyz_autogen
 
 # fast build rule for target.
-testprogram_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram_autogen.dir\build.make CMakeFiles/testprogram_autogen.dir/build
-.PHONY : testprogram_autogen/fast
+magic_moneyz_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/build
+.PHONY : magic_moneyz_autogen/fast
 
-exampels/graphical_UI.obj: exampels/graphical_UI.cpp.obj
-.PHONY : exampels/graphical_UI.obj
-
-# target to build an object file
-exampels/graphical_UI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.obj
-.PHONY : exampels/graphical_UI.cpp.obj
-
-exampels/graphical_UI.i: exampels/graphical_UI.cpp.i
-.PHONY : exampels/graphical_UI.i
-
-# target to preprocess a source file
-exampels/graphical_UI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.i
-.PHONY : exampels/graphical_UI.cpp.i
-
-exampels/graphical_UI.s: exampels/graphical_UI.cpp.s
-.PHONY : exampels/graphical_UI.s
-
-# target to generate assembly for a file
-exampels/graphical_UI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/exampels/graphical_UI.cpp.s
-.PHONY : exampels/graphical_UI.cpp.s
-
-testprogram_autogen/mocs_compilation.obj: testprogram_autogen/mocs_compilation.cpp.obj
-.PHONY : testprogram_autogen/mocs_compilation.obj
+magic_moneyz_autogen/mocs_compilation.obj: magic_moneyz_autogen/mocs_compilation.cpp.obj
+.PHONY : magic_moneyz_autogen/mocs_compilation.obj
 
 # target to build an object file
-testprogram_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.obj
-.PHONY : testprogram_autogen/mocs_compilation.cpp.obj
+magic_moneyz_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.obj
+.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.obj
 
-testprogram_autogen/mocs_compilation.i: testprogram_autogen/mocs_compilation.cpp.i
-.PHONY : testprogram_autogen/mocs_compilation.i
+magic_moneyz_autogen/mocs_compilation.i: magic_moneyz_autogen/mocs_compilation.cpp.i
+.PHONY : magic_moneyz_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-testprogram_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.i
-.PHONY : testprogram_autogen/mocs_compilation.cpp.i
+magic_moneyz_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.i
+.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.i
 
-testprogram_autogen/mocs_compilation.s: testprogram_autogen/mocs_compilation.cpp.s
-.PHONY : testprogram_autogen/mocs_compilation.s
+magic_moneyz_autogen/mocs_compilation.s: magic_moneyz_autogen/mocs_compilation.cpp.s
+.PHONY : magic_moneyz_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-testprogram_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprogram.dir\build.make CMakeFiles/testprogram.dir/testprogram_autogen/mocs_compilation.cpp.s
-.PHONY : testprogram_autogen/mocs_compilation.cpp.s
+magic_moneyz_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.s
+.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... testprogram_autogen
-	@echo ... testprogram_autogen_timestamp_deps
-	@echo ... testprogram
-	@echo ... exampels/graphical_UI.obj
-	@echo ... exampels/graphical_UI.i
-	@echo ... exampels/graphical_UI.s
-	@echo ... testprogram_autogen/mocs_compilation.obj
-	@echo ... testprogram_autogen/mocs_compilation.i
-	@echo ... testprogram_autogen/mocs_compilation.s
+	@echo ... magic_moneyz_autogen
+	@echo ... magic_moneyz_autogen_timestamp_deps
+	@echo ... magic_moneyz
+	@echo ... magic_moneyz_autogen/mocs_compilation.obj
+	@echo ... magic_moneyz_autogen/mocs_compilation.i
+	@echo ... magic_moneyz_autogen/mocs_compilation.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
