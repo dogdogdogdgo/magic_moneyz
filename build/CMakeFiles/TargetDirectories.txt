@@ -3,5 +3,11 @@ C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/edi
 C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/rebuild_cache.dir
 C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir
 C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/CMakeFiles/magic_moneyz_autogen.dir
-C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/exampels/CMakeFiles/edit_cache.dir
-C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/exampels/CMakeFiles/rebuild_cache.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/graphical_UI.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/hello_world.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/edit_cache.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/rebuild_cache.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/graphical_UI_autogen.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir
+C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build/examples/CMakeFiles/hello_world_autogen.dir

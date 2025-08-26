@@ -12,4 +12,4 @@ add_executable(magic_moneyz ./src/main.cpp)
 target_link_libraries(magic_moneyz PRIVATE Qt6::Widgets)
 
 #makes it so every example get it's own executebel
-add_subdirectory(exampels)
+add_subdirectory(examples)

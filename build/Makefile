@@ -154,6 +154,84 @@ magic_moneyz_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/build
 .PHONY : magic_moneyz_autogen/fast
 
+#=============================================================================
+# Target rules for targets named graphical_UI
+
+# Build rule for target.
+graphical_UI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 graphical_UI
+.PHONY : graphical_UI
+
+# fast build rule for target.
+graphical_UI/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI.dir\build.make examples/CMakeFiles/graphical_UI.dir/build
+.PHONY : graphical_UI/fast
+
+#=============================================================================
+# Target rules for targets named hello_world
+
+# Build rule for target.
+hello_world: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_world
+.PHONY : hello_world
+
+# fast build rule for target.
+hello_world/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world.dir\build.make examples/CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
+
+#=============================================================================
+# Target rules for targets named graphical_UI_autogen_timestamp_deps
+
+# Build rule for target.
+graphical_UI_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 graphical_UI_autogen_timestamp_deps
+.PHONY : graphical_UI_autogen_timestamp_deps
+
+# fast build rule for target.
+graphical_UI_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI_autogen_timestamp_deps.dir\build.make examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/build
+.PHONY : graphical_UI_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named graphical_UI_autogen
+
+# Build rule for target.
+graphical_UI_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 graphical_UI_autogen
+.PHONY : graphical_UI_autogen
+
+# fast build rule for target.
+graphical_UI_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI_autogen.dir\build.make examples/CMakeFiles/graphical_UI_autogen.dir/build
+.PHONY : graphical_UI_autogen/fast
+
+#=============================================================================
+# Target rules for targets named hello_world_autogen_timestamp_deps
+
+# Build rule for target.
+hello_world_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_world_autogen_timestamp_deps
+.PHONY : hello_world_autogen_timestamp_deps
+
+# fast build rule for target.
+hello_world_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen_timestamp_deps.dir\build.make examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/build
+.PHONY : hello_world_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named hello_world_autogen
+
+# Build rule for target.
+hello_world_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_world_autogen
+.PHONY : hello_world_autogen
+
+# fast build rule for target.
+hello_world_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen.dir\build.make examples/CMakeFiles/hello_world_autogen.dir/build
+.PHONY : hello_world_autogen/fast
+
 magic_moneyz_autogen/mocs_compilation.obj: magic_moneyz_autogen/mocs_compilation.cpp.obj
 .PHONY : magic_moneyz_autogen/mocs_compilation.obj
 
@@ -210,8 +288,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... graphical_UI_autogen
+	@echo ... graphical_UI_autogen_timestamp_deps
+	@echo ... hello_world_autogen
+	@echo ... hello_world_autogen_timestamp_deps
 	@echo ... magic_moneyz_autogen
 	@echo ... magic_moneyz_autogen_timestamp_deps
+	@echo ... graphical_UI
+	@echo ... hello_world
 	@echo ... magic_moneyz
 	@echo ... magic_moneyz_autogen/mocs_compilation.obj
 	@echo ... magic_moneyz_autogen/mocs_compilation.i
