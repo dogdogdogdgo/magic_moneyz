@@ -62,12 +62,12 @@ CMAKE_BINARY_DIR = C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/magic_moneyz.dir/all
+all: CMakeFiles/MagicMoneyz.dir/all
 all: examples/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/magic_moneyz.dir/codegen
+codegen: CMakeFiles/MagicMoneyz.dir/codegen
 codegen: examples/codegen
 .PHONY : codegen
 
@@ -76,9 +76,9 @@ preinstall: examples/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/magic_moneyz.dir/clean
-clean: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/magic_moneyz_autogen.dir/clean
+clean: CMakeFiles/MagicMoneyz.dir/clean
+clean: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/MagicMoneyz_autogen.dir/clean
 clean: examples/clean
 .PHONY : clean
 
@@ -109,111 +109,111 @@ examples/clean: examples/CMakeFiles/hello_world_autogen.dir/clean
 .PHONY : examples/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/magic_moneyz.dir
+# Target rules for target CMakeFiles/MagicMoneyz.dir
 
 # All Build rule for target.
-CMakeFiles/magic_moneyz.dir/all: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
-CMakeFiles/magic_moneyz.dir/all: CMakeFiles/magic_moneyz_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=11,12,13,14 "Built target magic_moneyz"
-.PHONY : CMakeFiles/magic_moneyz.dir/all
+CMakeFiles/MagicMoneyz.dir/all: CMakeFiles/MagicMoneyz_autogen.dir/all
+CMakeFiles/MagicMoneyz.dir/all: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MagicMoneyz"
+.PHONY : CMakeFiles/MagicMoneyz.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/magic_moneyz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/magic_moneyz.dir/all
+CMakeFiles/MagicMoneyz.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MagicMoneyz.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
-.PHONY : CMakeFiles/magic_moneyz.dir/rule
+.PHONY : CMakeFiles/MagicMoneyz.dir/rule
 
 # Convenience name for target.
-magic_moneyz: CMakeFiles/magic_moneyz.dir/rule
-.PHONY : magic_moneyz
+MagicMoneyz: CMakeFiles/MagicMoneyz.dir/rule
+.PHONY : MagicMoneyz
 
 # codegen rule for target.
-CMakeFiles/magic_moneyz.dir/codegen: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=11,12,13,14 "Finished codegen for target magic_moneyz"
-.PHONY : CMakeFiles/magic_moneyz.dir/codegen
+CMakeFiles/MagicMoneyz.dir/codegen: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target MagicMoneyz"
+.PHONY : CMakeFiles/MagicMoneyz.dir/codegen
 
 # clean rule for target.
-CMakeFiles/magic_moneyz.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/clean
-.PHONY : CMakeFiles/magic_moneyz.dir/clean
+CMakeFiles/MagicMoneyz.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/clean
+.PHONY : CMakeFiles/MagicMoneyz.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Built target magic_moneyz_autogen_timestamp_deps"
-.PHONY : CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
+CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Built target MagicMoneyz_autogen_timestamp_deps"
+.PHONY : CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
-.PHONY : CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-magic_moneyz_autogen_timestamp_deps: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/rule
-.PHONY : magic_moneyz_autogen_timestamp_deps
+MagicMoneyz_autogen_timestamp_deps: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/rule
+.PHONY : MagicMoneyz_autogen_timestamp_deps
 
 # codegen rule for target.
-CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Finished codegen for target magic_moneyz_autogen_timestamp_deps"
-.PHONY : CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/codegen
+CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num= "Finished codegen for target MagicMoneyz_autogen_timestamp_deps"
+.PHONY : CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
-CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/clean
+CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/magic_moneyz_autogen.dir
+# Target rules for target CMakeFiles/MagicMoneyz_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/magic_moneyz_autogen.dir/all: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=15 "Built target magic_moneyz_autogen"
-.PHONY : CMakeFiles/magic_moneyz_autogen.dir/all
+CMakeFiles/MagicMoneyz_autogen.dir/all: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen.dir\build.make CMakeFiles/MagicMoneyz_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen.dir\build.make CMakeFiles/MagicMoneyz_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=9 "Built target MagicMoneyz_autogen"
+.PHONY : CMakeFiles/MagicMoneyz_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/magic_moneyz_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/MagicMoneyz_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/magic_moneyz_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MagicMoneyz_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles 0
-.PHONY : CMakeFiles/magic_moneyz_autogen.dir/rule
+.PHONY : CMakeFiles/MagicMoneyz_autogen.dir/rule
 
 # Convenience name for target.
-magic_moneyz_autogen: CMakeFiles/magic_moneyz_autogen.dir/rule
-.PHONY : magic_moneyz_autogen
+MagicMoneyz_autogen: CMakeFiles/MagicMoneyz_autogen.dir/rule
+.PHONY : MagicMoneyz_autogen
 
 # codegen rule for target.
-CMakeFiles/magic_moneyz_autogen.dir/codegen: CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=15 "Finished codegen for target magic_moneyz_autogen"
-.PHONY : CMakeFiles/magic_moneyz_autogen.dir/codegen
+CMakeFiles/MagicMoneyz_autogen.dir/codegen: CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen.dir\build.make CMakeFiles/MagicMoneyz_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=9 "Finished codegen for target MagicMoneyz_autogen"
+.PHONY : CMakeFiles/MagicMoneyz_autogen.dir/codegen
 
 # clean rule for target.
-CMakeFiles/magic_moneyz_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/clean
-.PHONY : CMakeFiles/magic_moneyz_autogen.dir/clean
+CMakeFiles/MagicMoneyz_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen.dir\build.make CMakeFiles/MagicMoneyz_autogen.dir/clean
+.PHONY : CMakeFiles/MagicMoneyz_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target examples/CMakeFiles/graphical_UI.dir
 
 # All Build rule for target.
-examples/CMakeFiles/graphical_UI.dir/all: examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/all
 examples/CMakeFiles/graphical_UI.dir/all: examples/CMakeFiles/graphical_UI_autogen.dir/all
+examples/CMakeFiles/graphical_UI.dir/all: examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI.dir\build.make examples/CMakeFiles/graphical_UI.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI.dir\build.make examples/CMakeFiles/graphical_UI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4 "Built target graphical_UI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=10,11,12,13 "Built target graphical_UI"
 .PHONY : examples/CMakeFiles/graphical_UI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +230,7 @@ graphical_UI: examples/CMakeFiles/graphical_UI.dir/rule
 # codegen rule for target.
 examples/CMakeFiles/graphical_UI.dir/codegen: examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI.dir\build.make examples/CMakeFiles/graphical_UI.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target graphical_UI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=10,11,12,13 "Finished codegen for target graphical_UI"
 .PHONY : examples/CMakeFiles/graphical_UI.dir/codegen
 
 # clean rule for target.
@@ -242,11 +242,11 @@ examples/CMakeFiles/graphical_UI.dir/clean:
 # Target rules for target examples/CMakeFiles/hello_world.dir
 
 # All Build rule for target.
-examples/CMakeFiles/hello_world.dir/all: examples/CMakeFiles/hello_world_autogen.dir/all
 examples/CMakeFiles/hello_world.dir/all: examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/all
+examples/CMakeFiles/hello_world.dir/all: examples/CMakeFiles/hello_world_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world.dir\build.make examples/CMakeFiles/hello_world.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world.dir\build.make examples/CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=6,7,8,9 "Built target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=15,16,17,18 "Built target hello_world"
 .PHONY : examples/CMakeFiles/hello_world.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +263,7 @@ hello_world: examples/CMakeFiles/hello_world.dir/rule
 # codegen rule for target.
 examples/CMakeFiles/hello_world.dir/codegen: examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world.dir\build.make examples/CMakeFiles/hello_world.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=6,7,8,9 "Finished codegen for target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=15,16,17,18 "Finished codegen for target hello_world"
 .PHONY : examples/CMakeFiles/hello_world.dir/codegen
 
 # clean rule for target.
@@ -310,7 +310,7 @@ examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/clean:
 examples/CMakeFiles/graphical_UI_autogen.dir/all: examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI_autogen.dir\build.make examples/CMakeFiles/graphical_UI_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI_autogen.dir\build.make examples/CMakeFiles/graphical_UI_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=5 "Built target graphical_UI_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=14 "Built target graphical_UI_autogen"
 .PHONY : examples/CMakeFiles/graphical_UI_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -327,7 +327,7 @@ graphical_UI_autogen: examples/CMakeFiles/graphical_UI_autogen.dir/rule
 # codegen rule for target.
 examples/CMakeFiles/graphical_UI_autogen.dir/codegen: examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\graphical_UI_autogen.dir\build.make examples/CMakeFiles/graphical_UI_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=5 "Finished codegen for target graphical_UI_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=14 "Finished codegen for target graphical_UI_autogen"
 .PHONY : examples/CMakeFiles/graphical_UI_autogen.dir/codegen
 
 # clean rule for target.
@@ -374,7 +374,7 @@ examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/clean:
 examples/CMakeFiles/hello_world_autogen.dir/all: examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen.dir\build.make examples/CMakeFiles/hello_world_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen.dir\build.make examples/CMakeFiles/hello_world_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=10 "Built target hello_world_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=19 "Built target hello_world_autogen"
 .PHONY : examples/CMakeFiles/hello_world_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +391,7 @@ hello_world_autogen: examples/CMakeFiles/hello_world_autogen.dir/rule
 # codegen rule for target.
 examples/CMakeFiles/hello_world_autogen.dir/codegen: examples/CMakeFiles/hello_world_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen.dir\build.make examples/CMakeFiles/hello_world_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=10 "Finished codegen for target hello_world_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lukas\Documents\because_I_hate_myself\magic_moneyz\build\CMakeFiles --progress-num=19 "Finished codegen for target hello_world_autogen"
 .PHONY : examples/CMakeFiles/hello_world_autogen.dir/codegen
 
 # clean rule for target.

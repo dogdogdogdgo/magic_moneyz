@@ -229,7 +229,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/magic_moneyz_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/MagicMoneyz_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -240,9 +240,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/magic_moneyz.dir/DependInfo.cmake"
-  "CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/magic_moneyz_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/MagicMoneyz.dir/DependInfo.cmake"
+  "CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/MagicMoneyz_autogen.dir/DependInfo.cmake"
   "examples/CMakeFiles/graphical_UI.dir/DependInfo.cmake"
   "examples/CMakeFiles/hello_world.dir/DependInfo.cmake"
   "examples/CMakeFiles/graphical_UI_autogen_timestamp_deps.dir/DependInfo.cmake"

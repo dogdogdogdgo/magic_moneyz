@@ -116,43 +116,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named magic_moneyz
+# Target rules for targets named MagicMoneyz
 
 # Build rule for target.
-magic_moneyz: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz
-.PHONY : magic_moneyz
+MagicMoneyz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MagicMoneyz
+.PHONY : MagicMoneyz
 
 # fast build rule for target.
-magic_moneyz/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/build
-.PHONY : magic_moneyz/fast
+MagicMoneyz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/build
+.PHONY : MagicMoneyz/fast
 
 #=============================================================================
-# Target rules for targets named magic_moneyz_autogen_timestamp_deps
+# Target rules for targets named MagicMoneyz_autogen_timestamp_deps
 
 # Build rule for target.
-magic_moneyz_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz_autogen_timestamp_deps
-.PHONY : magic_moneyz_autogen_timestamp_deps
+MagicMoneyz_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MagicMoneyz_autogen_timestamp_deps
+.PHONY : MagicMoneyz_autogen_timestamp_deps
 
 # fast build rule for target.
-magic_moneyz_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/magic_moneyz_autogen_timestamp_deps.dir/build
-.PHONY : magic_moneyz_autogen_timestamp_deps/fast
+MagicMoneyz_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen_timestamp_deps.dir\build.make CMakeFiles/MagicMoneyz_autogen_timestamp_deps.dir/build
+.PHONY : MagicMoneyz_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named magic_moneyz_autogen
+# Target rules for targets named MagicMoneyz_autogen
 
 # Build rule for target.
-magic_moneyz_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 magic_moneyz_autogen
-.PHONY : magic_moneyz_autogen
+MagicMoneyz_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MagicMoneyz_autogen
+.PHONY : MagicMoneyz_autogen
 
 # fast build rule for target.
-magic_moneyz_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz_autogen.dir\build.make CMakeFiles/magic_moneyz_autogen.dir/build
-.PHONY : magic_moneyz_autogen/fast
+MagicMoneyz_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz_autogen.dir\build.make CMakeFiles/MagicMoneyz_autogen.dir/build
+.PHONY : MagicMoneyz_autogen/fast
 
 #=============================================================================
 # Target rules for targets named graphical_UI
@@ -232,36 +232,60 @@ hello_world_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f examples\CMakeFiles\hello_world_autogen.dir\build.make examples/CMakeFiles/hello_world_autogen.dir/build
 .PHONY : hello_world_autogen/fast
 
-magic_moneyz_autogen/mocs_compilation.obj: magic_moneyz_autogen/mocs_compilation.cpp.obj
-.PHONY : magic_moneyz_autogen/mocs_compilation.obj
+MagicMoneyz_autogen/mocs_compilation.obj: MagicMoneyz_autogen/mocs_compilation.cpp.obj
+.PHONY : MagicMoneyz_autogen/mocs_compilation.obj
 
 # target to build an object file
-magic_moneyz_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.obj
-.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.obj
+MagicMoneyz_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/MagicMoneyz_autogen/mocs_compilation.cpp.obj
+.PHONY : MagicMoneyz_autogen/mocs_compilation.cpp.obj
 
-magic_moneyz_autogen/mocs_compilation.i: magic_moneyz_autogen/mocs_compilation.cpp.i
-.PHONY : magic_moneyz_autogen/mocs_compilation.i
+MagicMoneyz_autogen/mocs_compilation.i: MagicMoneyz_autogen/mocs_compilation.cpp.i
+.PHONY : MagicMoneyz_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-magic_moneyz_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.i
-.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.i
+MagicMoneyz_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/MagicMoneyz_autogen/mocs_compilation.cpp.i
+.PHONY : MagicMoneyz_autogen/mocs_compilation.cpp.i
 
-magic_moneyz_autogen/mocs_compilation.s: magic_moneyz_autogen/mocs_compilation.cpp.s
-.PHONY : magic_moneyz_autogen/mocs_compilation.s
+MagicMoneyz_autogen/mocs_compilation.s: MagicMoneyz_autogen/mocs_compilation.cpp.s
+.PHONY : MagicMoneyz_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-magic_moneyz_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.s
-.PHONY : magic_moneyz_autogen/mocs_compilation.cpp.s
+MagicMoneyz_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/MagicMoneyz_autogen/mocs_compilation.cpp.s
+.PHONY : MagicMoneyz_autogen/mocs_compilation.cpp.s
+
+project/src/data_storage.obj: project/src/data_storage.cpp.obj
+.PHONY : project/src/data_storage.obj
+
+# target to build an object file
+project/src/data_storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/data_storage.cpp.obj
+.PHONY : project/src/data_storage.cpp.obj
+
+project/src/data_storage.i: project/src/data_storage.cpp.i
+.PHONY : project/src/data_storage.i
+
+# target to preprocess a source file
+project/src/data_storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/data_storage.cpp.i
+.PHONY : project/src/data_storage.cpp.i
+
+project/src/data_storage.s: project/src/data_storage.cpp.s
+.PHONY : project/src/data_storage.s
+
+# target to generate assembly for a file
+project/src/data_storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/data_storage.cpp.s
+.PHONY : project/src/data_storage.cpp.s
 
 project/src/main.obj: project/src/main.cpp.obj
 .PHONY : project/src/main.obj
 
 # target to build an object file
 project/src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/main.cpp.obj
 .PHONY : project/src/main.cpp.obj
 
 project/src/main.i: project/src/main.cpp.i
@@ -269,7 +293,7 @@ project/src/main.i: project/src/main.cpp.i
 
 # target to preprocess a source file
 project/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/main.cpp.i
 .PHONY : project/src/main.cpp.i
 
 project/src/main.s: project/src/main.cpp.s
@@ -277,8 +301,80 @@ project/src/main.s: project/src/main.cpp.s
 
 # target to generate assembly for a file
 project/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/main.cpp.s
 .PHONY : project/src/main.cpp.s
+
+project/src/order_executor.obj: project/src/order_executor.cpp.obj
+.PHONY : project/src/order_executor.obj
+
+# target to build an object file
+project/src/order_executor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/order_executor.cpp.obj
+.PHONY : project/src/order_executor.cpp.obj
+
+project/src/order_executor.i: project/src/order_executor.cpp.i
+.PHONY : project/src/order_executor.i
+
+# target to preprocess a source file
+project/src/order_executor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/order_executor.cpp.i
+.PHONY : project/src/order_executor.cpp.i
+
+project/src/order_executor.s: project/src/order_executor.cpp.s
+.PHONY : project/src/order_executor.s
+
+# target to generate assembly for a file
+project/src/order_executor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/order_executor.cpp.s
+.PHONY : project/src/order_executor.cpp.s
+
+project/src/trading_gatway.obj: project/src/trading_gatway.cpp.obj
+.PHONY : project/src/trading_gatway.obj
+
+# target to build an object file
+project/src/trading_gatway.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/trading_gatway.cpp.obj
+.PHONY : project/src/trading_gatway.cpp.obj
+
+project/src/trading_gatway.i: project/src/trading_gatway.cpp.i
+.PHONY : project/src/trading_gatway.i
+
+# target to preprocess a source file
+project/src/trading_gatway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/trading_gatway.cpp.i
+.PHONY : project/src/trading_gatway.cpp.i
+
+project/src/trading_gatway.s: project/src/trading_gatway.cpp.s
+.PHONY : project/src/trading_gatway.s
+
+# target to generate assembly for a file
+project/src/trading_gatway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/trading_gatway.cpp.s
+.PHONY : project/src/trading_gatway.cpp.s
+
+project/src/viewer.obj: project/src/viewer.cpp.obj
+.PHONY : project/src/viewer.obj
+
+# target to build an object file
+project/src/viewer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/viewer.cpp.obj
+.PHONY : project/src/viewer.cpp.obj
+
+project/src/viewer.i: project/src/viewer.cpp.i
+.PHONY : project/src/viewer.i
+
+# target to preprocess a source file
+project/src/viewer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/viewer.cpp.i
+.PHONY : project/src/viewer.cpp.i
+
+project/src/viewer.s: project/src/viewer.cpp.s
+.PHONY : project/src/viewer.s
+
+# target to generate assembly for a file
+project/src/viewer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MagicMoneyz.dir\build.make CMakeFiles/MagicMoneyz.dir/project/src/viewer.cpp.s
+.PHONY : project/src/viewer.cpp.s
 
 # Help Target
 help:
@@ -288,21 +384,33 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... MagicMoneyz_autogen
+	@echo ... MagicMoneyz_autogen_timestamp_deps
 	@echo ... graphical_UI_autogen
 	@echo ... graphical_UI_autogen_timestamp_deps
 	@echo ... hello_world_autogen
 	@echo ... hello_world_autogen_timestamp_deps
-	@echo ... magic_moneyz_autogen
-	@echo ... magic_moneyz_autogen_timestamp_deps
+	@echo ... MagicMoneyz
 	@echo ... graphical_UI
 	@echo ... hello_world
-	@echo ... magic_moneyz
-	@echo ... magic_moneyz_autogen/mocs_compilation.obj
-	@echo ... magic_moneyz_autogen/mocs_compilation.i
-	@echo ... magic_moneyz_autogen/mocs_compilation.s
+	@echo ... MagicMoneyz_autogen/mocs_compilation.obj
+	@echo ... MagicMoneyz_autogen/mocs_compilation.i
+	@echo ... MagicMoneyz_autogen/mocs_compilation.s
+	@echo ... project/src/data_storage.obj
+	@echo ... project/src/data_storage.i
+	@echo ... project/src/data_storage.s
 	@echo ... project/src/main.obj
 	@echo ... project/src/main.i
 	@echo ... project/src/main.s
+	@echo ... project/src/order_executor.obj
+	@echo ... project/src/order_executor.i
+	@echo ... project/src/order_executor.s
+	@echo ... project/src/trading_gatway.obj
+	@echo ... project/src/trading_gatway.i
+	@echo ... project/src/trading_gatway.s
+	@echo ... project/src/viewer.obj
+	@echo ... project/src/viewer.i
+	@echo ... project/src/viewer.s
 .PHONY : help
 
 

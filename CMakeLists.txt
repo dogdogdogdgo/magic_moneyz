@@ -8,8 +8,11 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-add_executable(magic_moneyz ./project/src/main.cpp)
-target_link_libraries(magic_moneyz PRIVATE Qt6::Widgets)
+
+file(GLOB SOURCES "./project/src/*.cpp")
+add_executable(MagicMoneyz ${SOURCES})
+
+target_link_libraries(MagicMoneyz PRIVATE Qt6::Widgets)
 
 #makes it so every example get it's own executebel
 add_subdirectory(examples)
