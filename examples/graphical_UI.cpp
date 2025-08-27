@@ -10,10 +10,11 @@ int main(int argc, char *argv[]) {
 
     QWidget window;
     window.setWindowTitle("Magic Monnyz");
+    window.setMinimumSize(800, 600);
 
     QVBoxLayout *layout = new QVBoxLayout(&window);
 
-    QLabel *balanceLabel = new QLabel("Saldo: 2000 MZ");
+    QLabel *balanceLabel = new QLabel("Saldo: 1500 MZ");
     QPushButton *tradeButton = new QPushButton("Köp/Sälj");
 
     QTableWidget *tableWidget = new QTableWidget(12, 3, &window);
@@ -26,11 +27,15 @@ int main(int argc, char *argv[]) {
     tableWidget->setItem(1, 0, new QTableWidgetItem("Silver"));
     tableWidget->setItem(1, 1, new QTableWidgetItem("25"));
     tableWidget->setItem(1, 2, new QTableWidgetItem("10"));
+    //tableWidget->resize(600, 400);
+    //ableWidget->setMinimumSize(400, 300);
 
 
-
+    layout->addWidget(tableWidget);
     layout->addWidget(balanceLabel);
     layout->addWidget(tradeButton);
+
+
 
     QObject::connect(tradeButton, &QPushButton::clicked, [&](){
         balanceLabel->setText("Saldo: 900 MZ"); // Simulerad transaktion

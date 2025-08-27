@@ -256,29 +256,29 @@ magic_moneyz_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/magic_moneyz_autogen/mocs_compilation.cpp.s
 .PHONY : magic_moneyz_autogen/mocs_compilation.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+project/src/main.obj: project/src/main.cpp.obj
+.PHONY : project/src/main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+project/src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.obj
+.PHONY : project/src/main.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+project/src/main.i: project/src/main.cpp.i
+.PHONY : project/src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+project/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.i
+.PHONY : project/src/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+project/src/main.s: project/src/main.cpp.s
+.PHONY : project/src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+project/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\magic_moneyz.dir\build.make CMakeFiles/magic_moneyz.dir/project/src/main.cpp.s
+.PHONY : project/src/main.cpp.s
 
 # Help Target
 help:
@@ -300,9 +300,9 @@ help:
 	@echo ... magic_moneyz_autogen/mocs_compilation.obj
 	@echo ... magic_moneyz_autogen/mocs_compilation.i
 	@echo ... magic_moneyz_autogen/mocs_compilation.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... project/src/main.obj
+	@echo ... project/src/main.i
+	@echo ... project/src/main.s
 .PHONY : help
 
 

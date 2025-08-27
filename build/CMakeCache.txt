@@ -26,8 +26,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/msys64/ucrt64/bin/g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -335,6 +335,15 @@ magic_moneyz_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 magic_moneyz_SOURCE_DIR:STATIC=C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz
+
+//Value Computed by CMake
+main_BINARY_DIR:STATIC=C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz/build
+
+//Value Computed by CMake
+main_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+main_SOURCE_DIR:STATIC=C:/Users/Lukas/Documents/because_I_hate_myself/magic_moneyz
 
 
 ########################

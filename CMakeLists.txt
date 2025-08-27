@@ -8,7 +8,7 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-add_executable(magic_moneyz ./src/main.cpp)
+add_executable(magic_moneyz ./project/src/main.cpp)
 target_link_libraries(magic_moneyz PRIVATE Qt6::Widgets)
 
 #makes it so every example get it's own executebel
