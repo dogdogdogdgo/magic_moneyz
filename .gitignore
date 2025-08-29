@@ -1,4 +1,5 @@
-/build
-/CMakeFiles
-.vscode
-CMakeCache.txt
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/.vscode/
