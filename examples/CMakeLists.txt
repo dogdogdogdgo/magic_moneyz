@@ -3,3 +3,6 @@ target_link_libraries(graphical_UI PRIVATE Qt6::Widgets)
 
 add_executable(hello_world hello_world.cpp)
 target_link_libraries(hello_world PRIVATE Qt6::Widgets)
+
+add_executable(rng_gen rng_gen.cpp)
+target_link_libraries(rng_gen PRIVATE Qt6::Widgets)

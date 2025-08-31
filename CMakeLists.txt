@@ -8,6 +8,7 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
+include_directories(${CMAKE_SOURCE_DIR}/project/includes)
 
 file(GLOB SOURCES "./project/src/*.cpp")
 add_executable(MagicMoneyz ${SOURCES})
